@@ -25,6 +25,6 @@ try:
                 break
             tcpCliSock.send('[%s] %s' % (ctime(), data))
         tcpCliSock.close()
-except EOFError, KeyboardInterrupt:
+except KeyboardInterrupt:
     print 'Server stopped...'
     tcpSerSock.close()
