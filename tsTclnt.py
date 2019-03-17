@@ -3,7 +3,6 @@
 
 from socket import *
 
-HOST = 'localhost'
 REMOTE_HOST = '66.112.209.81'
 PORT = 21567
 BUFSIZE = 1024
